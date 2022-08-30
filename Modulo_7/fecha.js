@@ -4,7 +4,7 @@ const fecha_nacimiento = new Date(1997, 04, 20);
 
 const tarde = fecha_hoy > fecha_nacimiento;
 
-const dia_nacimiento = fecha_nacimiento.getDay();
+const dia_nacimiento = fecha_nacimiento.getDate();
 
 const mes_nacimiento = fecha_nacimiento.getMonth() + 1;
 
