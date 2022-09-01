@@ -17,9 +17,9 @@ promesa.then(() => console.log("Hola soy una promesa"));
 ///////////////////////////////
 
 function* generaPar() {
-  let i = Math.floor(Math.random() * 100);
-  while (i % 2 == 0) {
-    yield i;
+  let id = 0;
+  while (true) {
+    yield (id += 2);
   }
 }
 const gen = generaPar();
