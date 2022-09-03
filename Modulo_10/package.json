@@ -1,0 +1,24 @@
+{
+  "name": "javascript_openbootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franco-ortellado/JavaScript_OpenBootcamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franco-ortellado/JavaScript_OpenBootcamp/issues"
+  },
+  "homepage": "https://github.com/Franco-ortellado/JavaScript_OpenBootcamp#readme",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
+}
